@@ -38,6 +38,8 @@ def ask(trait,):
     trait = 'Variants'
   elif trait == 'health':
     trait = 'Health'
+  elif trait == 'side':
+    trait = 'Side'
   print()
   print(f'The {trait} of the secret character is {characters[Secret_Cht][trait]}')
   print()
